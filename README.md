@@ -3,7 +3,7 @@
 </p>
 
 <h1>Networking lab (NSGs) </h1>
-In this tutorial, we will network labs as well as overview creating our resources within Azure. <br />
+In this tutorial, we will network labs as well as overview creating our resources within Azure. We will create Azure Virtual Networks and Subnets. Azure Virtual Machines Windows and Linux (Ubuntu). Azure Network Security Groups (Firewall Resource).   <br />
 
 
 
