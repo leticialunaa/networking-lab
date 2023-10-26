@@ -66,13 +66,33 @@ Create a Linux (Ubuntu) VM
 Use Remote Desktop to connect to your Windows 10 VM
 
 
+![IMG_1504](https://github.com/leticialunaa/networking-lab/assets/146797387/fa08ca64-fe19-41db-a71f-ebb7737b5fc0)
+
+
+Within Windows 10 VM, install Wireshark
 
 
 
 
-<p>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![IMG_1505](https://github.com/leticialunaa/networking-lab/assets/146797387/a6c9fe67-fc74-485b-8a26-3163d29e6928)
+
+Open Wireshark and filter for ICMP traffic only
+
+
+![IMG_1506](https://github.com/leticialunaa/networking-lab/assets/146797387/19bf6926-84eb-42ca-8d05-f92f112b7b35)
+
+Retrieve private IP address of the Ubuntu VM and attempt to ping it from the Windows 10 VM
+*Review ping requests and replies within Wireshark
+
+![IMG_1507](https://github.com/leticialunaa/networking-lab/assets/146797387/528d056e-99f4-4f1b-9281-e31b00be6d48)
+
+From the Windows 10 VM, open command line or PowerShell and attempt to ping a public website (www.google.com) and observe the traffic in WireShark. 
+
+
+
+
+
+
+
+
+
