@@ -35,8 +35,8 @@ In this tutorial, we will network labs as well as overview creating our resource
 
 <h2>Actions and Observations</h2>
 
-<p>
-![Screenshot 2023-10-25 184930](https://github.com/leticialunaa/networking-lab/assets/146797387/4682e837-176a-4eed-a423-97c7a5c77a03)
+
+![Screenshot 2023-10-25 184930](https://github.com/leticialunaa/networking-lab/assets/146797387/6a6bbb64-42bc-4359-9aff-9e13f09e42a6)
 
 </p>
 <p>
@@ -44,10 +44,11 @@ Create a resource within www.portal.azure.com
 <br />
 
 <p>
+![Screenshot 2023-10-25 190422](https://github.com/leticialunaa/networking-lab/assets/146797387/5bc97731-3ccd-45e5-bd23-066f4b4a6e9c)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a 
 </p>
 <br />
 
