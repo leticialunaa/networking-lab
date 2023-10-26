@@ -94,6 +94,14 @@ Retrieve private IP address of the Ubuntu VM and attempt to ping it from the Win
 From the Windows 10 VM, open command line or PowerShell and attempt to ping a public website (www.google.com) and observe the traffic in WireShark. 
 
 
+![Screenshot 2023-10-25 200749](https://github.com/leticialunaa/networking-lab/assets/146797387/cf57b753-b0cb-4edb-bf9a-56f0e9d08397)
+
+Open the Network Security Group from your Ubuntu VM in using and disable incoming (inbound) ICMP traffic. 
+*Back in Windows 10 VM, watch as the ICMP traffic in WireShark and the command line Ping
+*Enable ICMP traffic for the Network Security Group your Ubuntu is using line Ping (should be working)
+
+
+
 
 
 
