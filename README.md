@@ -1,4 +1,6 @@
-
+<p align="center">
+<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+</p>
 
 <h1>Networking lab (NSGs) </h1>
 In this tutorial, we will network labs as well as overview creating our resources within Azure. <br />
