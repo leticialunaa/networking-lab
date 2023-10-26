@@ -14,19 +14,24 @@ In this tutorial, we will network labs as well as overview creating our resource
 - Various Command-Line Tools
 - Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
+- Powershell
+  
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
-- wwww.azure.com
+- wwww.portal.azure.com
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Create resource group
+- Step 2:Create Windows 10 Virtual Machine VM
+- Step 3:Create a Linux (Ubuntu) VM
+- Step 4: Use remote desktop to connect to Windows 10 VM
+- Step 5: Within Windows 10 VM, install Wireshark
+- Step 6: Open Wireshark and filter for ICMP traffic only
+- Step 7: 
 
 <h2>Actions and Observations</h2>
 
