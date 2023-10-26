@@ -3,7 +3,11 @@
 </p>
 
 <h1>Networking lab (NSGs) </h1>
-In this tutorial, we will network labs as well as overview creating our resources within Azure. We will create Azure Virtual Networks and Subnets. Azure Virtual Machines Windows and Linux (Ubuntu). Azure Network Security Groups (Firewall Resource).   <br />
+In this tutorial, we will network labs as well as overview creating our resources within Azure.
+We will create Azure Virtual Networks and Subnets. 
+Azure Virtual Machines Windows and Linux (Ubuntu). 
+Azure Network Security Groups (Firewall Resource).  
+<br />
 
 
 
@@ -82,6 +86,7 @@ Open Wireshark and filter for ICMP traffic only
 ![IMG_1506](https://github.com/leticialunaa/networking-lab/assets/146797387/19bf6926-84eb-42ca-8d05-f92f112b7b35)
 
 Retrieve private IP address of the Ubuntu VM and attempt to ping it from the Windows 10 VM
+
 *Review ping requests and replies within Wireshark
 
 ![IMG_1507](https://github.com/leticialunaa/networking-lab/assets/146797387/528d056e-99f4-4f1b-9281-e31b00be6d48)
