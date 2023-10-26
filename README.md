@@ -52,22 +52,22 @@ Create a resource within www.portal.azure.com
 <p>
 Create a Windows 10 Virtual Machine (VM)
   
-  * While creating the VM, select the previously created Resource Group
+  * While creating the first VM, select the previously created Resource Group
 
-  * While creating the VM, allow it to create a new VM (Vnet) and Subnet
+  * While creating the first VM, allow it to create a new VM (Vnet) and Subnet
   
 ![image](https://github.com/leticialunaa/networking-lab/assets/146797387/26d4beb3-4710-4475-a975-ba2cafbf97dc)
 
 Create a Linux (Ubuntu) VM
 
- * While creating the VM, select the previously created Resource Group and Vnet
+ * While creating the second VM, select the previously created Resource Group and Vnet
 
-  * Observe your VM within Network Watcher
+  * Observe your second VM within Network Watcher
 
   
 ![image](https://github.com/leticialunaa/networking-lab/assets/146797387/9c3c9ca7-1798-40f6-8f67-8f64c726fed5)
 
-Use Remote Desktop to connect to your Windows 10 VM
+Use Remote Desktop to connect to your Windows 10 VM using private IP address of first VM to connect 
 
 
 ![IMG_1504](https://github.com/leticialunaa/networking-lab/assets/146797387/fa08ca64-fe19-41db-a71f-ebb7737b5fc0)
