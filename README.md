@@ -67,6 +67,9 @@ Create a Linux (Ubuntu) VM
   
 ![image](https://github.com/leticialunaa/networking-lab/assets/146797387/9c3c9ca7-1798-40f6-8f67-8f64c726fed5)
 
+
+Main Objective: (Observe ICMP traffic)
+
 Use Remote Desktop to connect to your Windows 10 VM using private IP address of first VM to connect 
 
 
@@ -80,6 +83,7 @@ Within Windows 10 VM, install Wireshark
 
 ![IMG_1505](https://github.com/leticialunaa/networking-lab/assets/146797387/a6c9fe67-fc74-485b-8a26-3163d29e6928)
 
+
 Open Wireshark and filter for ICMP traffic only
 
 
@@ -91,6 +95,7 @@ Retrieve private IP address of the Ubuntu VM and attempt to ping it from the Win
 
 ![IMG_1507](https://github.com/leticialunaa/networking-lab/assets/146797387/528d056e-99f4-4f1b-9281-e31b00be6d48)
 
+Main Objective: (Observe DNS Traffic) 
 From the Windows 10 VM, open command line or PowerShell and attempt to ping a public website (www.google.com) and observe the traffic in WireShark. 
 
 
@@ -101,10 +106,33 @@ Open the Network Security Group from your Ubuntu VM in using and disable incomin
 *Enable ICMP traffic for the Network Security Group your Ubuntu is using line Ping (should be working)
 
 
+![IMG_1509](https://github.com/leticialunaa/networking-lab/assets/146797387/563f938f-2d4a-4a6d-b419-a51f1dde1f53)
 
 
+Main Objective: (SSH traffic)
 
+Back in Wireshark,filter for SSH traffic only
+From Windows 10 VM "SSH" into your Ubuntu VM via its private IP address
+Type commands (username, pwd, etc) into the Linux SSH connection and watch SSH traffic spain in WireShark
+Exit the SSH connection by typing "exit" and press the enter key
 
+Main Objective: (Observe DHCP Traffic)
+In WireShark, filter for DHCP traffic only
+From Windows 10 VM, issue your VM a new IP address from the command line (ipconfig/renew)
+Watch the DHCP traffic appear in WireShark
+
+Main Objective: (Observe DNS Traffic)
+In Wireshark, filter for DNS traffic only 
+From Windows 10 VM within a command line, use nslookup to see what www.gooogle.com IP addresses are
+Watch the DNS traffic being shown in Wireshark 
+
+Main Objective: (Observe RDP Traffic)
+Back in Wireshark, filter for RDP traffic only (tcp.port==3389)
+Watch the immediate non-stop spam of traffic
+
+Last do not forget to close Remote Desktop connection
+Delete the Resource groups created in this lab
+Verify Resource Groups to prevent incurring fees
 
 
 
