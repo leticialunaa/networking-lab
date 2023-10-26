@@ -35,14 +35,21 @@ Azure Network Security Groups (Firewall Resource).
 - Step 4: Use remote desktop to connect to Windows 10 VM
 - Step 5: Within Windows 10 VM, install Wireshark
 - Step 6: Open Wireshark and filter for ICMP traffic only
-- Step 7: 
+- Step 7: Main Objective: (SSH traffic)
+- Step 8: Main Objective: (Observe DHCP Traffic)
+- Step 9: Main Objective: (Observe DNS Traffic)
+- Step 10: Main Objective: (Observe RDP Traffic)
+- Step 11: Close lab correclty
+  
 
 <h2>Actions and Observations</h2>
+
 
 
 ![Screenshot 2023-10-25 184930](https://github.com/leticialunaa/networking-lab/assets/146797387/6a6bbb64-42bc-4359-9aff-9e13f09e42a6)
 
 Create a resource within www.portal.azure.com
+
 
 
 
@@ -56,7 +63,9 @@ Create a Windows 10 Virtual Machine (VM)
 
   * While creating the first VM, allow it to create a new VM (Vnet) and Subnet
   
-![image](https://github.com/leticialunaa/networking-lab/assets/146797387/26d4beb3-4710-4475-a975-ba2cafbf97dc)
+
+![image](https://github.com/leticialunaa/networking-lab/assets/146797387/52a301ef-8d34-489b-ba5b-f497050203ad)
+
 
 Create a Linux (Ubuntu) VM
 
@@ -65,12 +74,14 @@ Create a Linux (Ubuntu) VM
   * Observe your second VM within Network Watcher
 
   
+
 ![image](https://github.com/leticialunaa/networking-lab/assets/146797387/9c3c9ca7-1798-40f6-8f67-8f64c726fed5)
 
 
 Main Objective: (Observe ICMP traffic)
 
 Use Remote Desktop to connect to your Windows 10 VM using private IP address of first VM to connect 
+
 
 
 ![IMG_1504](https://github.com/leticialunaa/networking-lab/assets/146797387/fa08ca64-fe19-41db-a71f-ebb7737b5fc0)
@@ -87,11 +98,13 @@ Within Windows 10 VM, install Wireshark
 Open Wireshark and filter for ICMP traffic only
 
 
+
 ![IMG_1506](https://github.com/leticialunaa/networking-lab/assets/146797387/19bf6926-84eb-42ca-8d05-f92f112b7b35)
 
 Retrieve private IP address of the Ubuntu VM and attempt to ping it from the Windows 10 VM
 
 *Review ping requests and replies within Wireshark
+
 
 ![IMG_1507](https://github.com/leticialunaa/networking-lab/assets/146797387/528d056e-99f4-4f1b-9281-e31b00be6d48)
 
@@ -99,11 +112,13 @@ Main Objective: (Observe DNS Traffic)
 From the Windows 10 VM, open command line or PowerShell and attempt to ping a public website (www.google.com) and observe the traffic in WireShark. 
 
 
+
 ![Screenshot 2023-10-25 200749](https://github.com/leticialunaa/networking-lab/assets/146797387/cf57b753-b0cb-4edb-bf9a-56f0e9d08397)
 
 Open the Network Security Group from your Ubuntu VM in using and disable incoming (inbound) ICMP traffic. 
 *Back in Windows 10 VM, watch as the ICMP traffic in WireShark and the command line Ping
 *Enable ICMP traffic for the Network Security Group your Ubuntu is using line Ping (should be working)
+
 
 
 ![IMG_1509](https://github.com/leticialunaa/networking-lab/assets/146797387/563f938f-2d4a-4a6d-b419-a51f1dde1f53)
