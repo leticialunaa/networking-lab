@@ -127,7 +127,7 @@ Open the Network Security Group from your Ubuntu VM in using and disable incomin
 Main Objective: (SSH traffic)
 
 Back in Wireshark,filter for SSH traffic only
-From Windows 10 VM "SSH" into your Ubuntu VM via its private IP address
+From Windows 10 VM "SSH" into your Ubuntu VM via its private IP address  
 Type commands (username, pwd, etc) into the Linux SSH connection and watch SSH traffic spain in WireShark
 Exit the SSH connection by typing "exit" and press the enter key
 
