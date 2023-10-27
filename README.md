@@ -148,7 +148,7 @@ Watch the immediate non-stop spam of traffic
 Last do not forget to close Remote Desktop connection
 Delete the Resource groups created in this lab
 Verify Resource Groups to prevent incurring fees
-
+Lab complete
 
 
 
