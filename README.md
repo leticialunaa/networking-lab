@@ -138,7 +138,7 @@ Watch the DHCP traffic appear in WireShark
 
 Main Objective: (Observe DNS Traffic)
 In Wireshark, filter for DNS traffic only 
-From Windows 10 VM within a command line, use nslookup to see what www.gooogle.com IP addresses are
+From Windows 10 VM within a command line, use nslookup to see what www.google.com IP addresses are
 Watch the DNS traffic being shown in Wireshark 
 
 Main Objective: (Observe RDP Traffic)
