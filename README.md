@@ -39,7 +39,7 @@ Azure Network Security Groups (Firewall Resource).
 - Step 8: Main Objective: (Observe DHCP Traffic)
 - Step 9: Main Objective: (Observe DNS Traffic)
 - Step 10: Main Objective: (Observe RDP Traffic)
-- Step 11: Close lab correclty
+- Step 11: Close lab correctly
   
 
 <h2>Actions and Observations</h2>
